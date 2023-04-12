@@ -18,7 +18,7 @@
 <label for ="gender">Gender </label>
 <input type="radio" id="gender" name="gender" required><br>
 <label for ="laptop">Laptop Brands</label>
-<select  id="laptop"><br>
+<select  id="laptop" required>
 	<option>Apple</option>
 	<option>Asus</option>
 	<option>HP</option></select><br>
@@ -28,8 +28,9 @@
 <input type="datetime" id="dob" required><br>
 <label for ="password">password</label>
 <input type="password" id="password" required><br>
-<input  type="text" id="portfolio"><br>
-<input type="submit" name="submit">
+<label for ="portfolio">portfolio</label>
+<input  type="url" id="portfolio"><br>
+<button type="submit">Submit</button>
 </form> 
 </body>
 
